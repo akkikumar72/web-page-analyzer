@@ -46,10 +46,8 @@ Perfect for understanding complex web applications, generating test cases, or do
 ```bash
 # Clone and install dependencies
 cd component-analyzer
-npm install
+bun install
 
-# Install Playwright browsers
-npx playwright install chromium
 ```
 
 ### Environment Setup
@@ -64,10 +62,10 @@ OPENAI_API_KEY=your_openai_api_key_here
 
 ```bash
 # Development server
-npm run dev
+bun run dev
 
 # Production build
-npm run build && npm start
+bun run build && npm start
 ```
 
 Open [http://localhost:3000](http://localhost:3000)
