@@ -22,18 +22,6 @@ https://github.com/user-attachments/assets/3c35f04f-4494-4487-a15c-d9382cfecefc
 - 🧠 **AI Analysis** - OpenAI analyzes what changed and generates annotations
 - 📋 **Structured Output** - JSON results ready for testing frameworks
 
-<details>
-<summary>📱 <b>Alternative viewing options</b></summary>
-
-**Direct Links:**
-- [📺 View on GitHub](https://github.com/user-attachments/assets/qa-1757009250665.mp4)
-- [⬇️ Download video](https://github.com/user-attachments/assets/qa-1757009250665.mp4)
-
-**GIF Preview (if video doesn't load):**
-*A comprehensive automated workflow showing URL input → element discovery → AI analysis → structured results*
-
-</details>
-
 ## 🚀 What it does
 
 This tool automatically:
