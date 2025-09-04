@@ -4,6 +4,10 @@ _Automated web page interaction analysis powered by AI and Playwright_
 
 ## 🎥 Demo
 
+
+https://github.com/user-attachments/assets/3c35f04f-4494-4487-a15c-d9382cfecefc
+
+
 <video width="100%" controls>
   <source src="./qa-1757009250665.mp4" type="video/mp4">
   Your browser does not support the video tag. 
