@@ -1,38 +1,25 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Outfit } from "next/font/google";
+import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
-const outfit = Outfit({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600"],
-  display: "swap",
-});
+const geist = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
+const mono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
 export const metadata: Metadata = {
-  title: "Component Docs Analyzer",
+  title: "Trace · Understand every interaction",
   description:
-    "Analyze component documentation websites for interactive elements and state changes",
+    "Explore how a website responds. Capture interactions, compare before and after, and turn observed changes into a clear report.",
+  icons: { icon: "/trace.svg" },
 };
-
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
-    <html lang="en" data-theme="dracula">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} ${outfit.className} antialiased`}
-      >
+    <html lang="en" suppressHydrationWarning>
+      <body className={`${geist.variable} ${mono.variable}`}>
+        <a className="skip-link" data-trace-ignore href="#main-content">
+          Skip to content
+        </a>
         {children}
       </body>
     </html>

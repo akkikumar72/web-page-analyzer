@@ -23,6 +23,7 @@ export function Screenshot({ src, alt, title, type }: ScreenshotProps) {
 
       <div className="avatar w-auto h-auto">
         <div className="w-full rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+          {/* biome-ignore lint/performance/noImgElement: Base64 captures are already sized by the analyzer. */}
           <img src={src} alt={alt} className="w-full h-32 object-cover" />
         </div>
       </div>

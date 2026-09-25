@@ -21,7 +21,11 @@ export function AnalysisResults({ data }: AnalysisResultsProps) {
           </p>
         </div>
         <div className="text-right">
-          <Badge variant="accent" size="lg" className="badge-outline text-lg px-6 py-3">
+          <Badge
+            variant="accent"
+            size="lg"
+            className="badge-outline text-lg px-6 py-3"
+          >
             {data.length} interaction{data.length !== 1 ? "s" : ""} found
           </Badge>
         </div>
