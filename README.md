@@ -1,3 +1,5 @@
+![Trace: Every click. A clearer picture. The interaction inspector showing a captured playground run.](docs/assets/trace-banner.webp)
+
 # Trace
 
 **Understand every interaction.** Trace is a local website inspection workspace, rebuilt from Web Page Action Analyzer. Open a public documentation or test page, record how its controls respond, and inspect the evidence in one place.
